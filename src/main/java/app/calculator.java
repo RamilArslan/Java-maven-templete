@@ -12,7 +12,5 @@ public class calculator {
             int b = scan.nextInt();
             System.out.println("Sum of the a and b = " + Integer.sum(a,b));
 
-
-
         }
     }
