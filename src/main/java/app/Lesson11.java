@@ -13,7 +13,6 @@ public class Lesson11 {
             }
         });
 
-
         IntStream.range(0, origin.length()).forEach(i -> {
             char c = origin.charAt(i);
             List<Integer> positions = map.getOrDefault(c, new ArrayList<>());
