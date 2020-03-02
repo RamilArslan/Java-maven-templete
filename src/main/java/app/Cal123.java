@@ -42,10 +42,6 @@ public class Cal123 {
                 answer = maths.divide(numA, numB);
             }
 
-            if (operator == '^') {
-                answer = maths.power(numA, numB);
-            }
-
             System.out.println(answer);
         }
     }
@@ -67,16 +63,6 @@ class Maths {
 
     double divide(double a, double b) {
         return a/b;
-    }
-
-    double power(double a, double b){
-        double answer =a;
-
-        for (int x=2; x<=b; x++){
-            answer *= a;
-        }
-
-        return answer;
     }
 }
 
